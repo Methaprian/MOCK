@@ -1,0 +1,11 @@
+{
+	function abc(){
+		function xyz(){
+			var a=10		// local
+			let b=20		// local
+			const c=30		// local
+		}
+	}
+
+	abc()
+}
